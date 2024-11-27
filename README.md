@@ -1,6 +1,7 @@
 # hotel-mangement-system
-this is hotel management system using PHP and MySQL Database 
-
+This is Swiss Garden Hotel management system, website and application using
+Frontend - HTML, CSS, React.js, Boothstrap and Tailwindcss
+Backend - PHP, MySQLi, Javascript and TSQL
 
 ## follow the guides
 
@@ -9,7 +10,10 @@ this is hotel management system using PHP and MySQL Database
 3. Run the project <br>
 4. Login and Use <br>
 	
-user name : - Admin <br>
-password  : - 1234 <br>
+user name : Admin <br>
+password  : 1234 <br>
 
-ENJOY DDDD !
+## Copyright
+@Viththiyakaran
+<br>
+I used this users project as a reference to make my own project so, I really need to thank him for contributing to open source for users like me.
