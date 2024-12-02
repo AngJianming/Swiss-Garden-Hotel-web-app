@@ -6,7 +6,7 @@ Backend - PHP, MySQLi, Javascript and TSQL
 ## follow the guides
 
 1. Download files into your server ( Local or Remote ) <br>
-2. Import Database "hotel.SQL" <br>
+2. Import Database "hotel.sql" into phpmyadmin <br>
 3. Run the project <br>
 4. Login and Use <br>
 	
