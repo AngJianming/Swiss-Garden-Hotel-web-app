@@ -1190,6 +1190,8 @@ li.menu__item:nth-child(6) {
 
 .cbp-ig-grid li>.w3_grid_effect:hover {
 	background: #0f2453;
+	cursor: pointer;
+	transition: ease-out .6s;
 }
 
 .cbp-ig-grid li>.w3_grid_effect:hover .cbp-ig-icon {
@@ -1379,19 +1381,19 @@ p.about-para-w3ls {
 /*-- team --*/
 
 .tab1 .team-img-w3-agile {
-	background: url(../images/teamb1.jpg)no-repeat 0px 0px;
+	background: url(../images/zAng.png)no-repeat 0px 0px;
 }
 
 .tab2 .team-img-w3-agile {
-	background: url(../images/teamb2.jpg)no-repeat 0px 0px;
+	background: url(../images/zBeh.png)no-repeat 0px 0px;
 }
 
 .tab3 .team-img-w3-agile {
-	background: url(../images/teamb3.jpg)no-repeat 0px 0px;
+	background: url(../images/zHJ.png)no-repeat 0px 0px;
 }
 
 .tab4 .team-img-w3-agile {
-	background: url(../images/teamb4.jpg)no-repeat 0px 0px;
+	background: url(../images/zCho.png)no-repeat 0px 0px;
 }
 
 .tab1 .team-img-w3-agile,

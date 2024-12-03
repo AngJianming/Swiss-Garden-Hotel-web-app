@@ -291,16 +291,16 @@ include('/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/db.php');
 			<div id="horizontalTab">
 				<ul class="resp-tabs-list">
 					<li>
-						<img src="images/teams1.jpg" alt=" " class="img-responsive" />
+						<img src="images/yAng.png" alt=" " class="img-responsive" />
 					</li>
 					<li>
-						<img src="images/teams2.jpg" alt=" " class="img-responsive" />
+						<img src="images/yBeh.png" alt=" " class="img-responsive" />
 					</li>
 					<li>
-						<img src="images/teams3.jpg" alt=" " class="img-responsive" />
+						<img src="images/yHJ.png" alt=" " class="img-responsive" />
 					</li>
 					<li>
-						<img src="images/teams4.jpg" alt=" " class="img-responsive" />
+						<img src="images/yCho.png" alt=" " class="img-responsive" />
 					</li>
 				</ul>
 				<div class="resp-tabs-container">
