@@ -25,7 +25,12 @@ include('db.php')
                 <ul class="nav" id="main-menu">
 
                     <li>
-                        <a href="../index.php"><i class="fa fa-home"></i> Homepage</a>
+                        <br><br><br><br><br>
+                        <a href="../index.php"><i class="fa fa-home"></i> Homepage</a><br>
+                        <a href="../index.php"><i class="fa fa-home"></i> Homepage2</a><br>
+                        <a href="../index.php"><i class="fa fa-home"></i> Homepage3</a><br>
+                        <a href="../index.php"><i class="fa fa-home"></i> Homepage4</a><br>
+                        <a href="../index.php"><i class="fa fa-home"></i> Homepage5</a><br>
                     </li>
 
                 </ul>
@@ -85,10 +90,10 @@ include('db.php')
                                     <div class="form-group">
                                         <label>Nationality*</label>
                                         <label class="radio-inline">
-                                            <input type="radio" name="nation" value="Sri Lankan" checked="">Sri Lankan
+                                            <input type="radio" name="nation" value="Sri Lankan" checked="">Malaysian
                                         </label>
                                         <label class="radio-inline">
-                                            <input type="radio" name="nation" value="Non Sri Lankan ">Non Sri Lankan
+                                            <input type="radio" name="nation" value="Non Sri Lankan ">Non Malaysian
                                         </label>
 
                                     </div>

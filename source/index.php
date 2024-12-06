@@ -175,7 +175,7 @@ include('/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/db.php');
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4>SUN <span>RISE</span></h4>
+					<h4>Swiss-<span>Garden</span></h4>
 					<img src="images/1.jpg" alt=" " class="img-responsive">
 					<h5>We know what you love</h5>
 					<p>Providing guests unique and enchanting views from their rooms with its exceptional amenities, makes Star Hotel one of bests in its kind.Try our food menu, awesome services and friendly staff while you are here.</p>
@@ -201,31 +201,31 @@ include('/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/db.php');
 			</div>
 			<div class="w3ls_banner_bottom_grids">
 				<ul class="cbp-ig-grid">
-					<li>
+					<li href="#">
 						<div class="w3_grid_effect">
 							<span class="cbp-ig-icon w3_road"></span>
-							<h4 class="cbp-ig-title">MASTER BEDROOMS</h4>
+							<h4 class="cbp-ig-title"><br>MASTER BEDROOMS</h4>
 							<span class="cbp-ig-category">Swiss-Garden</span>
 						</div>
 					</li>
-					<li>
+					<li href="#">
 						<div class="w3_grid_effect">
 							<span class="cbp-ig-icon w3_cube"></span>
-							<h4 class="cbp-ig-title">SEA VIEW BALCONY</h4>
+							<h4 class="cbp-ig-title">BUILDING NAVIGATION</h4>
 							<span class="cbp-ig-category">Swiss-Garden</span>
 						</div>
 					</li>
-					<li>
+					<li href="#">
 						<div class="w3_grid_effect">
 							<span class="cbp-ig-icon w3_users"></span>
-							<h4 class="cbp-ig-title">LARGE CAFE</h4>
+							<h4 class="cbp-ig-title">LARGE CAFE & DINNING</h4>
 							<span class="cbp-ig-category">Swiss-Garden</span>
 						</div>
 					</li>
-					<li>
+					<li href="#">
 						<div class="w3_grid_effect">
 							<span class="cbp-ig-icon w3_ticket"></span>
-							<h4 class="cbp-ig-title">TRACK YOURSELF</h4>
+							<h4 class="cbp-ig-title"><br>TRACK YOURSELF</h4>
 							<span class="cbp-ig-category">Swiss-Garden</span>
 						</div>
 					</li>
@@ -506,7 +506,7 @@ include('/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/db.php');
 								</ul>
 							</div>
 							<div class="price-selet">
-								<h3><span>$</span>320</h3>
+								<h3><span>MYR</span>320</h3>
 								<a href="admin/reservation.php">Book Now</a>
 							</div>
 						</div>
@@ -529,7 +529,7 @@ include('/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/db.php');
 								</ul>
 							</div>
 							<div class="price-selet">
-								<h3><span>$</span>220</h3>
+								<h3><span>MYR</span>220</h3>
 								<a href="admin/reservation.php">Book Now</a>
 							</div>
 						</div>
@@ -552,7 +552,7 @@ include('/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/db.php');
 								</ul>
 							</div>
 							<div class="price-selet">
-								<h3><span>$</span>180</h3>
+								<h3><span>MYR</span>180</h3>
 								<a href="admin/reservation.php">Book Now</a>
 							</div>
 						</div>
@@ -575,7 +575,7 @@ include('/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/db.php');
 								</ul>
 							</div>
 							<div class="price-selet">
-								<h3><span>$</span> 150</h3>
+								<h3><span>MYR</span> 150</h3>
 								<a href="admin/reservation.php">Book Now</a>
 							</div>
 						</div>
