@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="ISWE - Case Activity Diagram">
-    <mxGraphModel dx="2442" dy="1518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="1084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,6 +86,67 @@
             <Array as="points">
               <mxPoint x="430" y="470" />
               <mxPoint x="430" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-38" value="Navigate through Hotel Map functionality" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="1016" y="190" width="450" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-39" value="System" style="swimlane;html=1;startSize=20;horizontal=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="1131" y="305" width="430" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v3djkxihJ2RpdXpuDqz0-39" source="v3djkxihJ2RpdXpuDqz0-41" target="v3djkxihJ2RpdXpuDqz0-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-41" value="Process&lt;div&gt;what floor, block, and cite the users is at using Gyroscope&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;rotation=0;" vertex="1" parent="v3djkxihJ2RpdXpuDqz0-39">
+          <mxGeometry x="151.5" y="94" width="127.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-42" value="Generate pined&lt;div&gt;location&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;rotation=0;" vertex="1" parent="v3djkxihJ2RpdXpuDqz0-39">
+          <mxGeometry x="175" y="204" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-43" value="Customer" style="swimlane;html=1;startSize=20;horizontal=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="921" y="305" width="430" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="v3djkxihJ2RpdXpuDqz0-43" source="v3djkxihJ2RpdXpuDqz0-45" target="v3djkxihJ2RpdXpuDqz0-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-45" value="" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#000000;" vertex="1" parent="v3djkxihJ2RpdXpuDqz0-43">
+          <mxGeometry x="213.5" y="-75" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-48" value="Show to user&lt;div&gt;screen&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;rotation=0;" vertex="1" parent="v3djkxihJ2RpdXpuDqz0-43">
+          <mxGeometry x="186.13" y="79" width="94.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-50" value="Clicked into&lt;div&gt;Hotel Map&lt;/div&gt;&lt;div&gt;option&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;rotation=0;" vertex="1" parent="v3djkxihJ2RpdXpuDqz0-43">
+          <mxGeometry x="193.75" y="-1" width="79" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-54" value="" style="group" vertex="1" connectable="0" parent="v3djkxihJ2RpdXpuDqz0-43">
+          <mxGeometry x="203.25" y="171" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-55" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="v3djkxihJ2RpdXpuDqz0-54">
+          <mxGeometry width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-56" value="" style="ellipse;whiteSpace=wrap;html=1;rotation=0;fillColor=#000000;" vertex="1" parent="v3djkxihJ2RpdXpuDqz0-54">
+          <mxGeometry x="10" y="10" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="v3djkxihJ2RpdXpuDqz0-43" source="v3djkxihJ2RpdXpuDqz0-48" target="v3djkxihJ2RpdXpuDqz0-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233" y="95.00329113924056" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v3djkxihJ2RpdXpuDqz0-46" target="v3djkxihJ2RpdXpuDqz0-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-46" value="Pin the device&lt;div&gt;location in the hotel map&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1302" y="304" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v3djkxihJ2RpdXpuDqz0-50" target="v3djkxihJ2RpdXpuDqz0-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v3djkxihJ2RpdXpuDqz0-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v3djkxihJ2RpdXpuDqz0-42" target="v3djkxihJ2RpdXpuDqz0-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="539" />
+              <mxPoint x="1260" y="404" />
             </Array>
           </mxGeometry>
         </mxCell>
