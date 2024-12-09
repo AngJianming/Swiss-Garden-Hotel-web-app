@@ -11,7 +11,7 @@ while ($row = mysqli_fetch_array($re)) {
 	$id = $row['approval'];
 }
 
-if ($id == "Not Allowed") {
+if ($id == "Not Allowed") { 
 	$sql = "UPDATE `contact` SET `approval`= '$approval' WHERE id = '$eid' ";
 	if (mysqli_query($con, $sql)) {
 		echo '<script>alert("New Room Added") </script>';

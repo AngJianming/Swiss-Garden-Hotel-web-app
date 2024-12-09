@@ -26,7 +26,7 @@ include('db.php')
 
                     <li>
                         <br><br><br><br><br>
-                        <a href="../index.php"><i class="fa fa-home"></i> Homepage</a><br>
+                        <a href="../index.php"><i class="fa fa-home"></i> User Profile</a><br>
                         <a href="../index.php"><i class="fa fa-home"></i> Homepage2</a><br>
                         <a href="../index.php"><i class="fa fa-home"></i> Homepage3</a><br>
                         <a href="../index.php"><i class="fa fa-home"></i> Homepage4</a><br>

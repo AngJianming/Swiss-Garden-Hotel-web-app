@@ -1,7 +1,8 @@
 <?php
 session_start();
 if (!isset($_SESSION["user"])) {
-    header("location:index.php");
+    // header("location:/source/Login-Sign-up/Login.php");
+    // header("location:index.php");
 }
 
 ob_start();
@@ -12,7 +13,7 @@ ob_start();
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SUNRISE HOTEL</title>
+    <title>SWISS-GARDEN HOTEL</title>
     <!-- Bootstrap Styles-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FontAwesome Styles-->
