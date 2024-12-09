@@ -10,7 +10,7 @@ if (isset($_SESSION["user"])) {
 
 <head>
   <meta charset="UTF-8">
-  <title>SUN RISE ADMIN</title>
+  <title>SWISS-GARDEN HOTEL ADMIN PAGE</title>
 
 
 
@@ -52,7 +52,7 @@ if (isset($_SESSION["user"])) {
 
   </div>
   <div class="bottom">
-    <h3><a href="../index.php">SUN RISE HOMEPAGE</a></h3>
+    <!-- <h3><a href="../index.php">SWISS-GARDEN HOTEL HOMEPAGE</a></h3> -->
   </div>
 
 

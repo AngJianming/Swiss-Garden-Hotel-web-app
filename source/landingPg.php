@@ -53,6 +53,8 @@ include('/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/db.php');
 		</div>
 		<div class="contact-bnr-w3-agile">
 			<ul>
+				<a class="login" href="/source/Login-Sign-up/Login.php">Login</a>
+				<a class="sign-up" href="/source/Login-Sign-up/SignUp.php">Sign-Up</a>
 				<li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">INFO@SWISSGARDEN.COM</a></li>
 				<li><i class="fa fa-phone" aria-hidden="true"></i>+6017 253 8620</li>
 				<li class="s-bar">
@@ -225,7 +227,7 @@ include('/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/db.php');
 					<li href="#">
 						<div class="w3_grid_effect">
 							<span class="cbp-ig-icon w3_ticket"></span>
-							<h4 class="cbp-ig-title"><br>TRACK YOURSELF</h4>
+							<h4 class="cbp-ig-title"><br></h4>
 							<span class="cbp-ig-category">Swiss-Garden</span>
 						</div>
 					</li>
@@ -703,7 +705,7 @@ include('/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/db.php');
 			<div class="col-lg-6 col-md-6 col-sm-6 contact-w3-agile2" data-aos="flip-left">
 				<div class="contact-agileits">
 					<h4>Contact Us</h4>
-					<p class="contact-agile2">Sign Up For Our News Letters</p>
+					<p class="contact-agile2">Subscribe to us for our News letters</p>
 					<form method="post" name="sentMessage" id="contactForm">
 						<div class="control-group form-group">
 
@@ -728,7 +730,7 @@ include('/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/db.php');
 						</div>
 
 
-						<input type="submit" name="sub" value="Send Now" class="btn btn-primary">
+						<input type="submit" name="sub" value="Subscribe Now" class="btn btn-primary">
 					</form>
 					<?php
 					if (isset($_POST['sub'])) {
