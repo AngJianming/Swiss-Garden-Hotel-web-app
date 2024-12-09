@@ -58,6 +58,25 @@ label {
 	margin: 0;
 }
 
+
+/* login and sign-up button at top menu */
+.sign-up,
+.login {
+	border: none;
+	background: none;
+	color: blue;
+	font-size: 1rem;
+	text-decoration: none;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+.sign-up:hover,
+.login:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 /*-- header --*/
 /*--header -top--*/
 .social-bnr-agileits {
@@ -1776,6 +1795,7 @@ section.contact-w3ls p.contact-agile1 a {
 section.contact-w3ls .contact-agileits,
 .contact-w3-agile1 {
 	background-color: rgba(0, 0, 0, 0.55);
+	backdrop-filter: blur(5px);
 	padding: 20px 35px;
 }
 

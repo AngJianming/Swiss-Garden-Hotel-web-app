@@ -1,10 +1,10 @@
 <?php
 session_start();
 if (isset($_SESSION['Email_Session'])) {
-    header("Location: /xampp/htdocs/Swiss-Garden-Hotel-web-app/source/login/welcome.php");
+    header("Location: /xampp/htdocs/Swiss-Garden-Hotel-web-app/source/Login-Sign-up/welcome.php");
     die();
 }
-include('/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/login/config.php');
+include('/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/Login-Sign-up/config.php');
 //Import PHPMailer classes into the global namespace
 //These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
@@ -12,7 +12,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
-require '/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/login/vendor/autoload.php';
+require '/xampp/htdocs/Swiss-Garden-Hotel-web-app/source/Login-Sign-up/vendor/autoload.php';
 $msg = "";
 $Error_Pass = "";
 if (isset($_POST['submit'])) {
@@ -164,7 +164,7 @@ if (isset($_POST['submit'])) {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
                         laboriosam ad deleniti.
                     </p>
-                    <a href="index.php" class="btn transparent" id="sign-in-btn" style="padding:10px 20px;text-decoration:none">
+                    <a href="Login.php" class="btn transparent" id="sign-in-btn" style="padding:10px 20px;text-decoration:none">
                         Sign in
                     </a>
                 </div>

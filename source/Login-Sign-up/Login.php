@@ -96,7 +96,7 @@ if (isset($_POST['submit'])) {
     <div class="forms-container">
       <div class="signin-signup">
         <form action="" method="POST" class="sign-in-form">
-          <h2 class="title">Sign in</h2>
+          <h2 class="title">Login</h2>
           <?php echo $msg ?>
           <div class="input-field">
             <i class="fas fa-user"></i>
