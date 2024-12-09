@@ -1,14 +1,14 @@
 <?php
 session_start();
 if (!isset($_SESSION["user"])) {
-	header("location:index.php");
+	// header("location:index.php");
 }
 ?>
 
 <?php
 if (!isset($_GET["rid"])) {
 
-	header("location:index.php");
+	// header("location:index.php");
 } else {
 	$curdate = date("Y/m/d");
 	include('db.php');
@@ -70,7 +70,7 @@ if (!isset($_GET["rid"])) {
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="home.php"> <?php echo $_SESSION["user"]; ?> </a>
+				<!-- <a class="navbar-brand" href="home.php"> <?php echo $_SESSION["user"]; ?> </a> -->
 			</div>
 
 			<ul class="nav navbar-top-links navbar-right">

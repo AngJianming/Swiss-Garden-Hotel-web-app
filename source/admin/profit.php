@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION["user"])) {
-    header("location:index.php");
+    // header("location:index.php");
 }
 ?>
 
@@ -42,7 +42,7 @@ if (!isset($_SESSION["user"])) {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="home.php"><?php echo $_SESSION["user"]; ?> </a>
+                <!-- <a class="navbar-brand" href="home.php"><?php echo $_SESSION["user"]; ?> </a> -->
             </div>
 
             <ul class="nav navbar-top-links navbar-right">

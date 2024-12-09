@@ -1,7 +1,7 @@
 ﻿<?php
 session_start();
 if (!isset($_SESSION["user"])) {
-    header("location:index.php");
+    // header("location:index.php");
 }
 ?>
 <!DOCTYPE html>
@@ -33,7 +33,7 @@ if (!isset($_SESSION["user"])) {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="home.php"> <?php echo $_SESSION["user"]; ?> </a>
+                <!-- <a class="navbar-brand" href="home.php"> <?php echo $_SESSION["user"]; ?> </a> -->
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
@@ -59,6 +59,25 @@ if (!isset($_SESSION["user"])) {
         <nav class="navbar-default navbar-side" role="navigation">
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
+                    
+                    <!-- <li>
+                        <button onclick=toggleSubMenu(this) class="dropdown-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h207q16 0 30.5 6t25.5 17l57 57h320q33 0 56.5 23.5T880-640v400q0 33-23.5 56.5T800-160H160Zm0-80h640v-400H447l-80-80H160v480Zm0 0v-480 480Zm400-160v40q0 17 11.5 28.5T600-320q17 0 28.5-11.5T640-360v-40h40q17 0 28.5-11.5T720-440q0-17-11.5-28.5T680-480h-40v-40q0-17-11.5-28.5T600-560q-17 0-28.5 11.5T560-520v40h-40q-17 0-28.5 11.5T480-440q0 17 11.5 28.5T520-400h40Z" />
+                            </svg>
+                            <span>Create</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed">
+                                <path d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z" />
+                            </svg>
+                        </button>
+                        <ul class="sub-menu">
+                            <div>
+                                <li><a href="#">Folder</a></li>
+                                <li><a href="#">Document</a></li>
+                                <li><a href="#">Project</a></li>
+                            </div>
+                        </ul>
+                    </li> -->
 
                     <li>
                         <a class="active-menu" href="home.php"><i class="fa fa-dashboard"></i> Status</a>
