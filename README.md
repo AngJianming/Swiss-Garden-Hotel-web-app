@@ -4,7 +4,7 @@ Desing UIUX - Figma <br>
 Frontend - HTML, CSS, React.js, Boothstrap and Tailwindcss <br>
 Backend - PHP, MySQLi, Javascript and TSQL <br>
 
-## follow the guides
+## Follow the guides to start using it on your own
 
 1. Download files into your server ( Local or Remote ) <br>
 2. Import Database "hotel.sql" into phpmyadmin <br>
