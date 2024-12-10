@@ -1,5 +1,6 @@
 # Swiss-Garden Hotel mangement system
 This is Swiss Garden Hotel management system, website and application using
+Desing UIUX - Figma
 Frontend - HTML, CSS, React.js, Boothstrap and Tailwindcss
 Backend - PHP, MySQLi, Javascript and TSQL
 
